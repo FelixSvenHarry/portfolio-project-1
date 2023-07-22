@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 10px;
+}
+
+#menu {
+    right: 10px;
+    letter-spacing: 3px;
+    font-size: 110%;
+    margin-right: 30px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu li {
+    float: right;
+    padding-right: 30px;
+    list-style-type: none;
+    color: #3e3e3e;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 1080px;
+    width: 100%;
+    background: url(../images/sunset-are.jpg) no-repeat center center;
+}
