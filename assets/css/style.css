@@ -145,8 +145,14 @@ h2 {
 
 /* events page*/
 
+#event-page-box-header {
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+
 #event-page-container {
-    background-color: #3e3e3e;
+    background-color: #8b8b8b;
     height: 600px;
     width: 100%;
     margin: 30px auto;
@@ -158,37 +164,68 @@ h2 {
     position: relative;
     width: 25%;
     height: 500px;
-    background-color: green;
-    margin: 50px 30px;
+    background-color: #3e3e3e;
+    margin: 15px 30px;
     border-radius: 5px;
+    vertical-align: top;
 }
 
 #event-page-box p {
+    color: white;
     display: inline-block;
     margin: 10px;
-    width: 100px;
-    height: 90%;
+    width: 90%;
+    text-align: left;
 }
 
 #event-page-box-video iframe {
-    margin: 10px auto;
+    margin: 15px auto;
     width: 90%;
     height: 50%;
     padding: 0;
 }
 
-#event-page-box-image-1 {
+#event-page-box-downhill-1 {
     background: url(../images/downhill-event1.jpg) no-repeat center center;
     width: 90%;
     height: 60%;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
-#event-page-box-image-2 {
-    background: url(../images/downhill-event2.jpg) no-repeat center center;
+#event-page-box-downhill-2 {
+    background: url(../images/donwhill-event2.jpg) no-repeat center center;
     width: 90%;
-    height: 90%;
-    margin: 10px auto;
+    height: 95%;
+    margin: 12px auto;
+}
+
+#event-page-box-rafting-1 {
+    background: url(../images/rafting-event1.jpg) no-repeat center center;
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+
+}
+
+#event-page-box-rafting-2 {
+    background: url(../images/rafting-event2.jpg) no-repeat center center;
+    height: 95%;
+    width: 90%;
+    margin: 12px auto;
+}
+
+#event-page-box-hiking-1 {
+    background: url(../images/hiking-event1.jpg) no-repeat center center;
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+#event-page-box-hiking-2 {
+    background: url(../images/hiking-event2.jpg) no-repeat center center;
+    height: 95%;
+    width: 90%;
+    margin: 12px auto;
 }
 
 /* footer section */
