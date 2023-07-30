@@ -66,9 +66,30 @@ h2 {
 }
 
 #hero-image {
-    height: 600px;
-    width: 100%;
     background: url(../images/sunset-are.jpg) no-repeat center center;
+    width: 100%;
+    height: 600px;
+}
+
+#hero-image-text {
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    padding: 10px 15px 15px 15px;
+    bottom: 40%;
+    right: 25%;
+    color: white;
+    background: rgba(98, 98, 98, 0.7);
+}
+
+#hero-image-text h2 {
+    color: #458527;
+    margin-bottom: 15px;
+    font-size: 200%;
+}
+
+#hero-image-text p {
+    font-size: 150%;
 }
 
 /* event summary block */
@@ -86,35 +107,89 @@ h2 {
     width: 25%;
     height: 450px;
     background-color: rgba(58, 58, 58, 0.6);
-    margin-top: 75px;
-    margin-right: 50px;
+    margin: 75px 30px;
     border-radius: 10px;
 }
 
-#event-image-1 {
-
-    background: url(../images/sunset-are.jpg) no-repeat center center;
+.event-image-style {
     width: 80%;
     height: 50%;
     margin: 30px auto;
 }
 
-#event-text p {
-    color: white;
+#event-image-1 {
+    background: url(../images/hiking-hero.jpg) no-repeat center center;
+}
+
+#event-image-2 {
+    background: url(../images/rafting-hero.jpg) no-repeat center center;
+}
+
+#event-image-3 {
+    background: url(../images/downhill-hero.jpg) no-repeat center center;
 }
 
 #event-text {
     width: 80%;
     margin: 20px auto;
+}
 
+#event-text p {
+    color: white;
+    min-height: 100px;
 }
 
 #event-icon {
-    margin: 15px auto;
     font-size: 25px;
-
 }
 
+/* events page*/
+
+#event-page-container {
+    background-color: #3e3e3e;
+    height: 600px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#event-page-box {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    height: 500px;
+    background-color: green;
+    margin: 50px 30px;
+    border-radius: 5px;
+}
+
+#event-page-box p {
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 90%;
+}
+
+#event-page-box-video iframe {
+    margin: 10px auto;
+    width: 90%;
+    height: 50%;
+    padding: 0;
+}
+
+#event-page-box-image-1 {
+    background: url(../images/downhill-event1.jpg) no-repeat center center;
+    width: 90%;
+    height: 60%;
+    margin: 10px auto;
+}
+
+#event-page-box-image-2 {
+    background: url(../images/downhill-event2.jpg) no-repeat center center;
+    width: 90%;
+    height: 90%;
+    margin: 10px auto;
+}
 
 /* footer section */
 
@@ -122,7 +197,9 @@ h2 {
     width: 100%;
     height: 150px;
     background-color: #8b8b8b;
+    position: absolute;
 }
+
 
 #footer-contact {
     float: left;
@@ -130,17 +207,30 @@ h2 {
     font-size: large;
     margin-top: 30px;
     margin-left: 50px;
+    color: white;
 }
 
 #footer-contact p {
     margin-top: 5px;
 }
 
+
 #social-section {
-    background-color: #3e3e3e;
+    color: rgb(255, 255, 255);
+    text-align: center;
     float: right;
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
+    position: relative;
+    margin-top: 65px;
     margin-right: 50px;
+}
+
+#social-section a:hover {
+    border-bottom: 3px solid white;
+}
+
+#social-section a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 150%;
+    margin: 0 40px;
 }
