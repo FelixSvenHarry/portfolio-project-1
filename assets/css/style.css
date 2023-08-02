@@ -75,15 +75,15 @@ h2 {
     position: absolute;
     width: 300px;
     height: 170px;
-    padding: 10px 15px 15px 15px;
+    padding: 20px 25px 25px 25px;
     bottom: 40%;
-    right: 25%;
+    right: 40%;
     color: white;
     background: rgba(98, 98, 98, 0.7);
 }
 
 #hero-image-text h2 {
-    color: #458527;
+    color: #64c239;
     margin-bottom: 15px;
     font-size: 200%;
 }
@@ -194,9 +194,9 @@ h2 {
 
 #event-page-box-downhill-2 {
     background: url(../images/donwhill-event2.jpg) no-repeat center center;
-    width: 90%;
-    height: 95%;
-    margin: 12px auto;
+    height: 80%;
+    width: 70%;
+    margin: 45px auto;
 }
 
 #event-page-box-rafting-1 {
@@ -209,9 +209,9 @@ h2 {
 
 #event-page-box-rafting-2 {
     background: url(../images/rafting-event2.jpg) no-repeat center center;
-    height: 95%;
-    width: 90%;
-    margin: 12px auto;
+    height: 80%;
+    width: 70%;
+    margin: 45px auto;
 }
 
 #event-page-box-hiking-1 {
@@ -223,34 +223,48 @@ h2 {
 
 #event-page-box-hiking-2 {
     background: url(../images/hiking-event2.jpg) no-repeat center center;
-    height: 95%;
-    width: 90%;
-    margin: 12px auto;
+    height: 80%;
+    width: 70%;
+    margin: 45px auto;
 }
 
 /* Sing up section */
 
 #form-section {
     position: relative;
-    top: 15%;
+    top: 25%;
     left: 40%;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     width: 300px;
     height: 300px;
     color: white;
-    text-align: left;
+
     padding-left: 40px;
     padding-top: 20px;
 }
 
-#form-section label {
+.form-align {
     display: block;
+    text-align: left;
+    border-radius: 5px;
+    line-height: 25px;
 }
+
+#form-section label {}
 
 #form-section h2 {
     color: white;
     margin-bottom: 10px;
+}
+
+.Submit-button {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
 }
 
 /* footer section */
