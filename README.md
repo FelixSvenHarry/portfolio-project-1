@@ -1,39 +1,48 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# STAY ACTIVE IN ÅRE
+----------
+This website is intended for people visitng åre and who are active and eager eager to explore what Åre has to offer in way of activites. On the page they will find a homepage with distilled summaries of the three different attivites you can choose from as well as more in depth explanations as well as accompanying videos.
 
-Welcome,
+----------
+### EXISTING FEATURES
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+- NAVIGATION BAR
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+  - A navigation bar consistent throughout all three pages which easily lets you navigate back and fourth.
 
-## Codeanywhere Reminders
+![navigation bar](/assets/images/navigation-bar.jpg)
+- HERO IMAGE AND TEXT
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+  - A hero image as well as a short text both compelling the user to stay active.
+  
+![hero image/text](/assets/images//hero-image-hero-text.jpg)  
+- EVENT SUMMARY
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - Three clickable boxes each summarising one of the three activites the user can read about. When clicked the user is taken to a more lengthy entry in the events section.
+  
+![event summary](/assets/images/event-summary.jpg)  
+- THE FOOTER
+  - A footer containing the websites social media links as well as a phone number and email address.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![footer](/assets/images/footer.jpg)
+- EVENTS PAGE
+  - An events page containing more detailed explainations of the three activities as well as videos further detailing what each activity entails.
+  
+![events page](/assets/images/events-page.jpg)
+- SIGNUP PAGE
+  - A signup page where users can sign up to a newsletter.
 
-`http_server`
+![Sign-up page](/assets/images/sign-up-page.jpg)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+----------
+### FEATURES TO IMPLEMENT
+- A FAQ section since most people visiting a website like this most likely have never been to this place before.
+- A booking section where i can provide links and useful assets un order for the user to be able to book the activity they want.
+  
+### TESTING
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- first
+- second
+- third
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!

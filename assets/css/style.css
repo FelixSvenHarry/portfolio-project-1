@@ -28,7 +28,6 @@ h2 {
     right: 10px;
     letter-spacing: 3px;
     font-size: 110%;
-    margin-right: 30px;
 }
 
 #menu,
@@ -73,45 +72,52 @@ h2 {
 
 #hero-image-text {
     position: absolute;
-    width: 300px;
-    height: 170px;
+    width: 600px;
+    height: 220px;
     padding: 20px 25px 25px 25px;
-    bottom: 40%;
-    right: 40%;
     color: white;
     background: rgba(98, 98, 98, 0.7);
+    text-align: center;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #hero-image-text h2 {
     color: #64c239;
     margin-bottom: 15px;
-    font-size: 200%;
+    font-size: 250%;
+    margin-top: 30px;
 }
 
 #hero-image-text p {
-    font-size: 150%;
+    font-size: 180%;
+
 }
 
 /* event summary block */
 
 #event-outer-box {
     height: 600px;
-    width: 90%;
-    background: url(../images/sunset-are.jpg);
+    width: 100%;
+    background: #8b8b8b;
     margin: 75px auto;
     text-align: center;
+    padding: 5px 0;
 }
 
-#event-box {
+.event-box {
     display: inline-block;
     width: 25%;
     height: 450px;
-    background-color: rgba(58, 58, 58, 0.6);
+    background-color: #3e3e3e;
     margin: 75px 30px;
     border-radius: 10px;
 }
 
 .event-image-style {
+    display: inline-block;
     width: 80%;
     height: 50%;
     margin: 30px auto;
@@ -129,29 +135,30 @@ h2 {
     background: url(../images/hiking-hero.jpg) no-repeat center center;
 }
 
-#event-text {
+.event-text {
     width: 80%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
-#event-text p {
+.event-text p {
     color: white;
-    min-height: 100px;
 }
 
-#event-icon {
+.event-icon {
     font-size: 25px;
+    min-width: none;
+    padding-top: 30px;
 }
 
 /* events page*/
 
-#event-page-box-header {
+.event-page-box-header {
     color: white;
     font-size: 200%;
     text-align: center;
 }
 
-#event-page-container {
+.event-page-container {
     background-color: #8b8b8b;
     height: 600px;
     width: 100%;
@@ -159,7 +166,7 @@ h2 {
     text-align: center;
 }
 
-#event-page-box {
+.event-page-box {
     display: inline-block;
     position: relative;
     width: 25%;
@@ -170,15 +177,16 @@ h2 {
     vertical-align: top;
 }
 
-#event-page-box p {
+.event-page-box p {
     color: white;
     display: inline-block;
     margin: 10px;
     width: 90%;
+    height: 170px;
     text-align: left;
 }
 
-#event-page-box-video iframe {
+.event-page-box-video iframe {
     margin: 15px auto;
     width: 90%;
     height: 50%;
@@ -232,12 +240,12 @@ h2 {
 
 #form-section {
     position: relative;
-    top: 25%;
+    top: 20%;
     left: 40%;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     width: 300px;
-    height: 300px;
+    height: 340px;
     color: white;
 
     padding-left: 40px;
@@ -250,8 +258,6 @@ h2 {
     border-radius: 5px;
     line-height: 25px;
 }
-
-#form-section label {}
 
 #form-section h2 {
     color: white;
@@ -293,11 +299,16 @@ h2 {
 
 #social-section {
     color: rgb(255, 255, 255);
-    text-align: center;
     float: right;
+    list-style: none;
+    margin: 0 50px;
+}
+
+#social-section li {
     position: relative;
-    margin-top: 65px;
-    margin-right: 50px;
+    display: inline-block;
+    margin: 60px 0;
+
 }
 
 #social-section a:hover {
@@ -308,5 +319,79 @@ h2 {
     text-decoration: none;
     color: inherit;
     font-size: 150%;
-    margin: 0 40px;
+    margin: 0 30px;
 }
+
+/* media query */
+
+
+@media screen and (max-width: 950px) {
+
+
+    /* hero image block */
+
+    
+
+    /* event summary block*/
+
+    #event-outer-box {
+
+        height: fit-content;
+    }
+
+    .event-box {
+        display: block;
+        width: 90%;
+        margin: 5% 5%;
+    }
+
+    /* event page*/
+
+    #logo,
+    #menu {
+        display: inline-block;
+        float: left;
+        margin-left: 30px;
+
+    }
+
+    .event-page-container {
+        height: fit-content;
+    }
+
+    .event-page-box {
+        width: 90%;
+        margin: 5% 5%;
+        display: block;
+        width: 80%;
+
+    }
+
+    #event-page-box-downhill-2 {
+        margin: 0 auto;
+        padding: 45px 0;
+    }
+
+    #event-page-box-rafting-2 {
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+
+    #event-page-box-hiking-2 {
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+
+    /* sing-up page*/
+
+
+
+    /* footer */
+
+    #footer {
+        height: fit-content;
+    }
+
+    #social-section {
+        display: block;
+    }
