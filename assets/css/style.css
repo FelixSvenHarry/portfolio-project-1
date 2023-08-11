@@ -239,17 +239,17 @@ h2 {
 /* Sing up section */
 
 #form-section {
-    position: relative;
-    top: 20%;
-    left: 40%;
+    position: absolute;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
-    width: 300px;
+    width: 450px;
     height: 340px;
     color: white;
-
+    left: 50%;
+    top: 50%;
     padding-left: 40px;
     padding-top: 20px;
+    transform: translate(-50%, -50%);
 }
 
 .form-align {
@@ -257,6 +257,7 @@ h2 {
     text-align: left;
     border-radius: 5px;
     line-height: 25px;
+    width: 250px;
 }
 
 #form-section h2 {
@@ -265,12 +266,21 @@ h2 {
 }
 
 .Submit-button {
+    font-size: 16px;
     display: block;
-    border: none;
+    border: 2px solid white;
     border-radius: 5px;
-    width: 80px;
-    height: 25px;
-    margin-top: 10px;
+    width: 130px;
+    height: 35px;
+    margin-top: 25px;
+    color: white;
+    background: #3e3e3e;
+}
+
+.Submit-button:hover {
+    background: white;
+    color: #3e3e3e;
+    border: none;
 }
 
 /* footer section */
@@ -327,15 +337,42 @@ h2 {
 
 @media screen and (max-width: 950px) {
 
+    /* navigation */
+
+    #logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #nav-menu {
+        float: left;
+        width: 100%;
+    }
+
+    nav {
+        display: block;
+        float: left;
+    }
 
     /* hero image block */
 
-    
+    #hero-image-text {
+        width: 100%;
+        height: 240px;
+    }
+
+    #hero-image-text h2,
+    p {
+        margin: 0;
+        padding: 0 10px;
+    }
+
+
 
     /* event summary block*/
 
     #event-outer-box {
-
         height: fit-content;
     }
 
@@ -347,21 +384,13 @@ h2 {
 
     /* event page*/
 
-    #logo,
-    #menu {
-        display: inline-block;
-        float: left;
-        margin-left: 30px;
-
-    }
-
     .event-page-container {
         height: fit-content;
     }
 
     .event-page-box {
         width: 90%;
-        margin: 5% 5%;
+        margin: 5% auto;
         display: block;
         width: 80%;
 
@@ -384,7 +413,13 @@ h2 {
 
     /* sing-up page*/
 
+    #form-section {
+        width: 100%;
+    }
 
+    #form-section h2 {
+        padding-right: 25px;
+    }
 
     /* footer */
 
@@ -394,4 +429,7 @@ h2 {
 
     #social-section {
         display: block;
+        text-align: center;
+        width: 100%;
+        margin: auto;
     }
