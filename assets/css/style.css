@@ -142,12 +142,13 @@ h2 {
 
 .event-text p {
     color: white;
+    min-height: 100px;
 }
 
 .event-icon {
     font-size: 25px;
-    min-width: none;
-    padding-top: 30px;
+    min-width: 10px;
+    padding-top: 15px;
 }
 
 /* events page*/
@@ -252,6 +253,13 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
+#form-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .form-align {
     display: block;
     text-align: left;
@@ -345,15 +353,17 @@ h2 {
         text-align: center;
     }
 
-    #nav-menu {
+    #menu {
         float: left;
-        width: 100%;
+        margin-left: 15px;
     }
 
-    nav {
-        display: block;
-        float: left;
+    #logo,
+    #menu {
+        line-height: 75px;
     }
+
+
 
     /* hero image block */
 
@@ -386,6 +396,7 @@ h2 {
 
     .event-page-container {
         height: fit-content;
+        padding-bottom: 15px;
     }
 
     .event-page-box {
@@ -427,9 +438,14 @@ h2 {
         height: fit-content;
     }
 
+    #footer-contact {
+        margin-left: 20px;
+    }
+
     #social-section {
         display: block;
         text-align: center;
         width: 100%;
         margin: auto;
     }
+}
