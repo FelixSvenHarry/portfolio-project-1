@@ -319,7 +319,7 @@ h2 {
     color: rgb(255, 255, 255);
     float: right;
     list-style: none;
-    margin: 0 50px;
+    margin: 0 20px 0 0px;
 }
 
 #social-section li {
@@ -342,8 +342,99 @@ h2 {
 
 /* media query */
 
-
 @media screen and (max-width: 950px) {
+
+    /* navigation */
+
+    #logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu {
+        float: left;
+        margin-left: 15px;
+    }
+
+    #logo,
+    #menu {
+        line-height: 75px;
+    }
+
+
+
+    /* hero image block */
+
+    #hero-image-text h2,
+    p {
+        margin: 0;
+        padding: 0 10px;
+    }
+
+
+
+    /* event summary block*/
+
+    #event-outer-box {
+        height: fit-content;
+    }
+
+    .event-box {
+        display: block;
+        width: 90%;
+        margin: 5% 5%;
+    }
+
+    /* event page*/
+
+    .event-page-container {
+        height: fit-content;
+        padding-bottom: 15px;
+    }
+
+    .event-page-box {
+        width: 90%;
+        margin: 5% auto;
+        display: block;
+        width: 80%;
+
+    }
+
+    #event-page-box-downhill-2 {
+        margin: 0 auto;
+        padding: 45px 0;
+    }
+
+    #event-page-box-rafting-2 {
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+
+    #event-page-box-hiking-2 {
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+
+    /* sing-up page*/
+
+    #form-section h2 {
+        padding-right: 25px;
+    }
+
+    /* footer */
+
+    #footer {
+        height: fit-content;
+    }
+
+    #footer-contact {
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
 
     /* navigation */
 
@@ -448,4 +539,5 @@ h2 {
         width: 100%;
         margin: auto;
     }
+
 }

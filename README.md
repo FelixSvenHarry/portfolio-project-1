@@ -1,10 +1,8 @@
 # STAY ACTIVE IN ÅRE
-----------
 This website is intended for people visitng åre and who are active and eager eager to explore what Åre has to offer in way of activites. On the page they will find a homepage with distilled summaries of the three different attivites you can choose from as well as more in depth explanations as well as accompanying videos.
 
-----------
 ### EXISTING FEATURES
-
+----------
 - NAVIGATION BAR
 
   - A navigation bar consistent throughout all three pages which easily lets you navigate back and fourth.
@@ -34,12 +32,14 @@ This website is intended for people visitng åre and who are active and eager ea
 
 ![Sign-up page](/assets/images/sign-up-page.jpg)
 
-----------
+
 ### FEATURES TO IMPLEMENT
+----------
 - A FAQ section since most people visiting a website like this most likely have never been to this place before.
 - A booking section where i can provide links and useful assets un order for the user to be able to book the activity they want.
   
 ### TESTING
+----------
 
 - The naviaation bar as well as the hero image and text is responsive on all screen sizes.
 - The event summary section is responsive on all screen sizes a part from the images not quite filling out the boxes when viewed on tablet.
@@ -47,12 +47,14 @@ This website is intended for people visitng åre and who are active and eager ea
 - The sign up section is responsive and works on all screen sizes.
 
 ### VALIDATOR TESTING
+----------
 - HTML
   - The HTML code passes through the official W3C Validator without returning any errors.
 - CSS
   - The CSS Code passes through the official Jigsaw validator without returning any errors.
 
 ### CREDITS
+----------
 
 - A very big thanks to Anthony who have offered invaluable support and directions throughout this project.
 
