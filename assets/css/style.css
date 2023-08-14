@@ -98,6 +98,12 @@ h2 {
 
 /* event summary block */
 
+#event-h2 {
+    color: white;
+    font-size: 250%;
+    text-align: center;
+}
+
 #event-outer-box {
     height: 600px;
     width: 100%;
@@ -112,7 +118,7 @@ h2 {
     width: 25%;
     height: 450px;
     background-color: #3e3e3e;
-    margin: 75px 30px;
+    margin: 45px 30px;
     border-radius: 10px;
 }
 
