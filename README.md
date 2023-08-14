@@ -13,7 +13,7 @@ This website is intended for people visitng åre and who are active and eager ea
 
   - A hero image as well as a short text both compelling the user to stay active.
   
-![hero image/text](/assets/images//hero-image-hero-text.jpg)  
+![hero image/text](/assets/images/hero-image-hero-text.jpg)  
 - EVENT SUMMARY
 
   - Three clickable boxes each summarising one of the three activites the user can read about. 

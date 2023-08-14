@@ -382,8 +382,8 @@ h2 {
 
     .event-box {
         display: block;
-        width: 90%;
-        margin: 5% 5%;
+        width: 65%;
+        margin: 5% auto;
     }
 
     /* event page*/
@@ -394,10 +394,9 @@ h2 {
     }
 
     .event-page-box {
-        width: 90%;
+        width: 65%;
         margin: 5% auto;
         display: block;
-        width: 80%;
 
     }
 
@@ -494,7 +493,6 @@ h2 {
         width: 90%;
         margin: 5% auto;
         display: block;
-        width: 80%;
 
     }
 
