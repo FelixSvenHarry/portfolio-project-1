@@ -357,6 +357,10 @@ h2 {
         margin-left: 15px;
     }
 
+    #menu li {
+        padding-right: 25px;
+    }
+
     #logo,
     #menu {
         line-height: 75px;

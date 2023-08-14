@@ -41,10 +41,15 @@ This website is intended for people visitng åre and who are active and eager ea
 ### TESTING
 ----------
 
-- The naviaation bar as well as the hero image and text is responsive on all screen sizes.
+- The navigation bar as well as the hero image and text is responsive on all screen sizes.
+![responsive-front-page](/assets/images/responsive-front-page.jpg)
+
 - The event summary section is responsive on all screen sizes a part from the images not quite filling out the boxes when viewed on tablet.
+![event-summary](/assets/images/responsive-event-summary.jpg)
 - The Event page is responsive on all screen sizes a part from the images not quite filling out the boxes when viewed on tablet.
+![event-page](/assets/images/responsive-event-page.jpg)
 - The sign up section is responsive and works on all screen sizes.
+![sing-up-page](/assets/images/responsive-sign-up.jpg)
 
 ### VALIDATOR TESTING
 ----------
