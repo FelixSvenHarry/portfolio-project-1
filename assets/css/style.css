@@ -87,7 +87,7 @@ h2 {
 #hero-image-text h2 {
     color: #64c239;
     margin-bottom: 15px;
-    font-size: 250%;
+    font-size: 280%;
     margin-top: 30px;
 }
 
@@ -378,11 +378,13 @@ h2 {
 
     #hero-image-text h2,
     p {
-        margin: 0;
         padding: 0 10px;
+        vertical-align: middle;
     }
 
-
+    #hero.image-text h2 {
+        margin-top: 30px;
+    }
 
     /* event summary block*/
 
@@ -451,6 +453,7 @@ h2 {
         display: block;
         width: 100%;
         text-align: center;
+        font-size: 280%;
     }
 
     #menu {
